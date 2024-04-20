@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- CDN de font-awesome -->
+  <!-- CDN son las siglas para Content Delivery Network (Red de Distribución de Contenidos) y, tal como su nombre lo indica, se trata de una red de servidores encargada de distribuir contenidos en Internet de manera más rápida y eficiente gracias a una serie de POPs (Puntos de Presencia) situados alrededor del mundo. -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Mi CV Virtual</title>
+</head>
+
+<body>
+  <main>
+    <!-- Encabezado -->
+    <header>
+      <!-- Barra de navegación principal -->
+      <nav>
+        <div class="container">
+          <div class="logo">
+            <a href="index.html">M<span>M</span></a>
+          </div>
+
+          <div class="links">
+            <ul>
+              <li>
+                <a href="#header">Home</a>
+              </li>
+              <li>
+                <a href="#services">Servicios</a>
+              </li>
+              <li>
+                <a href="#portfolio">Portafolio</a>
+              </li>
+              <li>
+                <a href="#about">Acerca de</a>
+              </li>
+              <li>
+                <a href="#testimonials">Testimonios</a>
+              </li>
+              <li>
+                <a href="#contact">Contácto</a>
+              </li>
+              <li>
+                <a href="https://wa.me/+573164490390" target="_blank" class="active">WhatsApp</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Menu hamburguesa para agregar en movil -->
+          <div class="hamburger-menu">
+            <i class="fas fa-bars fa-lg"></i>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Contenido para el header -->
+      <div class="header-content">
+        <div class="container grid-2">
+          <div class="column-1">
+            <!-- Titulo principal -->
+            <h1 class="header-title">Carlos <span>Bedoya</span></h1>
+            <p class="text">
+              Hola, Soy Carlos Bedoya, Me converti en Ingeniero Cloud despues del 2020, enfocado
+              en la nube de AWS, aprendiendo las bases de Linux, Docker, Infrastructura como Codigo con Terraform
+              y con un deseo enorme de desbloquear y poder aprender programacion enfocada al Backend!
+            </p>
+            <!-- Boton de descarga de CV -->
+            <button class="btn"
+              onclick="window.open('https://www.linkedin.com/in/carlosbedoya/', '_blank', 'noopener')">Ver CV en
+              Linkedin</button>
+          </div>
+          <!-- Imagen principal para el header -->
+          <div class="column-2 image">
+            <img src="./img/shapes/points2.svg" class="points points2" alt="" />
+            <img src="./img/person.png" class="img-element z-index" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <div class="section-header">
+          <h5 class="title" data-title="">Servicios</h5>
+          <p class="text">
+            Dedicated and results-oriented Cloud Engineer with plus 7 years of experience in designing, implementing,
+            and optimizing cloud-based solutions. Proficient in a wide range of cloud technologies, including AWS,
+            Azure, and Google Cloud Platform. Skilled in architecting scalable, secure, and resilient cloud
+            infrastructures to meet the unique needs of diverse businesses. Adept at collaborating with
+            cross-functional
+            teams to deliver innovative cloud solutions that drive operational efficiency, cost-effectiveness, and
+            business growth. Passionate about staying updated with emerging cloud trends and technologies to
+            continuously enhance skills and contribute to organizational success.
+          </p>
+          <a href="#" class="btn small">Ver mas</a>
+        </div>
+
+        <div class="cards">
+          <div class="card" data-card="UI/UX">
+            <div class="card-content z-index">
+              <img src="img/design-icon.svg" alt="icono de diseño web" class="icon" />
+              <h3 class="title-sm">Arquitecto de Soluciones</h3>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+                voluptates, quod, quae, quos quia quibusdam
+              </p>
+              <a href="#" class="btn small">Ver mas 2</a>
+            </div>
+
+          </div>
+
+          <div class="card" data-card="Code">
+            <div class="card-content z-index">
+              <img src="img/code-icon.svg" alt="icono de desarrollo web" class="icon" />
+              <h3 class="title-sm">Especialista en Kubernetes</h3>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+                voluptates, quod, quae, quos quia quibusdam
+              </p>
+              <a href="#" class="btn small">Ver mas 2</a>
+            </div>
+
+          </div>
+
+          <div class="card" data-card="App">
+            <div class="card-content z-index">
+              <img src="img/app-icon.svg" alt="Desarrollo de Apps" class="icon" />
+              <h3 class="title-sm">Embajador de la CNCF</h3>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+                voluptates, quod, quae, quos quia quibusdam
+              </p>
+              <a href="#" class="btn small">Ver mas 3</a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- Sección pie de página -->
+  <footer class="footer"></footer>
+</body>
+
+</html>
